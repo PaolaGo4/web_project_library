@@ -370,6 +370,10 @@
   margin-left: 80px;
 }
 
+.footer__column-heading {
+  margin-bottom: 20px;
+}
+
 .footer__logo {
   width: 58px;
   height: 80px;
