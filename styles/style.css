@@ -294,3 +294,115 @@
   font-size: 14px;
   margin: 0;
 }
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1080px;
+}
+
+.step {
+  align-items: center;
+  width: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-size: cover;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-bottom: 60px;
+  padding-right: 80px;
+}
+
+.footer__columns {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+  margin-left: 80px;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  margin-left: 80px;
+}
